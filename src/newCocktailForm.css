@@ -82,7 +82,11 @@ input:hover, textarea:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow:auto;
+  }
+
+  textarea{
+    height: 150px;
   }
 
   form {
