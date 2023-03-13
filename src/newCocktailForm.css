@@ -1,0 +1,115 @@
+* {
+  /* Fuente provisional, BORRAR */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow-y: hidden;
+}
+
+form {
+  height: 100vh;
+  background-color: #292929;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1.2fr;
+  gap: 20px;
+}
+
+h1 {
+  color: #FFC300;
+  align-self: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 45px;
+  text-shadow: 0 0 10px black;
+}
+
+.cocktail-details{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input, textarea {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0 0 5px #f5f5f5;
+;
+}
+
+textarea{
+  resize: none;
+  height: 250px;
+}
+
+form button{
+  width: 150px;
+  padding: 15px;
+  background-color: #FFC300;
+  color: #5f5f5f;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  align-self: flex-start;
+  justify-self: center;
+}
+
+form button:active{
+  box-shadow: 0 0 10px #FFC300;
+  transform: scale(0.95);
+  transition: all 0.2s ease-out;
+}
+
+input:hover, textarea:hover{
+  background-color: #e4e4e4f5;
+  transition: all 0.7s ease-in-out;
+}
+
+
+@media screen and (min-width: 425px) {
+  body{
+    background-color: #292929;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  form {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    width: 80%;
+    margin: 0 150px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  form {
+  width: 40%;
+    margin: 0 250px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  form {
+    width: 30%;
+  }
+  
+}
+
+
+
