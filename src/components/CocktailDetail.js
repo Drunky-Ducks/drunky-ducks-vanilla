@@ -1,19 +1,14 @@
-class CocktailDetail extends HTMLElement {
-  constructor() {
-    super();
-    this.attachShadow({ mode: "open" });
-  }
+import { LitElement, html, css } from "lit";
 
-  set cocktail(data) {
-    this._cocktail = data;
-  }
-
-  get cocktail() {
-    return this._cocktail;
+class CocktailDetail extends LitElement {
+  static get properties() {
+    return {
+      cocktail: { type: Object }
+    };
   }
 
   static get styles() {
-    return /* css */ `
+    return css`
       * {
         margin: 0;
         padding: 0;
@@ -74,13 +69,8 @@ class CocktailDetail extends HTMLElement {
     `;
   }
 
-  connectedCallback() {
-    this.render();
-    this.fillIngredients();
-  }
-
-  fillIngredients() {
-    const list = this.shadowRoot.querySelector(".ingredients");
+  firstUpdated() {
+    const list = this.renderRoot.querySelector(".ingredients");
     const cocktail = this.cocktail;
 
     for (const props in cocktail.strIngredients) {
@@ -97,7 +87,7 @@ class CocktailDetail extends HTMLElement {
   }
 
   render() {
-    this.shadowRoot.innerHTML = /* html */ `
+    return html`
       <style>${CocktailDetail.styles}</style>
       <div class="details">
         <div>
