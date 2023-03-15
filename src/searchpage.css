@@ -1,17 +1,11 @@
 @import url("./css/media/responsive.css");
 
-:root {
-  --swiper-navigation-color: #fff;
-  --deault-color: white;
-  --font-no-default: verdana, tahoma, sans-serif;
-}
-
 html,
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #333;
-  font-family: DuruSans, monospace;
+margin: 0;
+padding: 0;
+background-color: #333;
+font-family: DuruSans, monospace;
 }
 
 header {
@@ -38,30 +32,55 @@ header {
   color: #f6c343;
 }
 
-.page {
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.search-input {
+  width: 80%;
+  height: 3rem;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 2px solid rgb(164 164 163);
+  font-size: 1.2rem;
+  outline: none;
+  margin-bottom: 1rem;
+  background-color: #bbb5b5;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
-  padding: 3rem 0;
+  gap: 5rem;
+  padding: 6rem 0;
 }
 
 .tittle {
-  font-size: 2.5rem;
-  color: #ffc300;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  color: #ffc300;;
+  margin-top: 40px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
-.listzero,
-.listclassic,
-.listhight {
+.list {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 40px;
   width: 100%;
   flex: 1;
 }
@@ -80,9 +99,11 @@ header {
 }
 
 .menu {
-  display: flex;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 90px;
     height: 100%;
-}
+  }
+
+
