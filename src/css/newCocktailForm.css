@@ -73,6 +73,15 @@ input:hover, textarea:hover{
   transition: all 0.7s ease-in-out;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 90px;
+  height: 100%;
+}
+
+
 
 @media screen and (min-width: 425px) {
   body{

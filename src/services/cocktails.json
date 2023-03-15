@@ -3,6 +3,7 @@
         {
             "strDrink": "Americano",
             "strAlcoholic": "Con Alcohol",
+            "strClassic": true,
             "strDrinkThumb": "https://puntodincontro.mx/wp-content/uploads/2022/01/negroniprimopostomondialevert.webp",
             "strIngredients": ["Campari", "Vermut rojo", "Agua con gas"],
             "strMeasures": ["3 cl", "3 cl"],
@@ -17,6 +18,7 @@
         },{
             "strDrink": "Daiquiri",
             "strAlcoholic": "Con Alcohol",
+            "strClassic": true,
             "strDrinkThumb": "https://cdn.diffords.com/contrib/stock-images/2016/11/54/2016f9307258872e6f649ba6bd3be48d912f.jpg",
             "strIngredients": ["Ron Blanco", "Zumo de lima", "Azucar"],
             "strMeasures": ["4.2 cl", "2.5 cl","1.5 cl"],
@@ -24,6 +26,7 @@
         },{
             "strDrink": "Dry Martini",
             "strAlcoholic": "Con Alcohol",
+            "strDanger": true,
             "strDrinkThumb": "https://foodandsun.com/wp-content/uploads/2020/06/Dirty-Martini-1-1.jpg",
             "strIngredients": ["Ginebra", "Vermouth seco"],
             "strMeasures": ["6 cl", "1 cl"],
@@ -59,6 +62,7 @@
         },{
             "strDrink": "Caipirinha",
             "strAlcoholic": "Con Alcohol",
+            "strClassic": true,
             "strDrinkThumb": "https://www.comedera.com/wp-content/uploads/2022/04/caipirina.png",
             "strIngredients": ["Cachaza", "Lima", "Azucar"],
             "strMeasures": ["5 cl", "4 gajos", "2 cucharadas"],
@@ -73,6 +77,7 @@
         },{
             "strDrink": "Cosmopolitan",
             "strAlcoholic": "Con Alcohol",
+            "strClassic": true,
             "strDrinkThumb": "https://recetasdecocina.elmundo.es/wp-content/uploads/2022/05/COSMOPOLITAN.jpg",
             "strIngredients": ["Vodka", "Cointreau", "Zumo de lima", "Zumo de arándano"],
             "strMeasures": ["4 cl", "1.5 cl", "1.5 cl", "3 cl"],
@@ -80,6 +85,7 @@
         },{
             "strDrink": "Cuba Libre",
             "strAlcoholic": "Con Alcohol",
+            "strClassic": true,
             "strDrinkThumb": "https://cocinaperuana.espaciolatino.com/recetas-de-bebidas/img600/cuba-libre.jpg",
             "strIngredients": ["Ron Blanco", "Cocacola", "Zumo de lima"],
             "strMeasures": ["5 cl", "12 cl", "1 cl"],
@@ -101,6 +107,7 @@
         },{
             "strDrink": "Bloody Mary",
             "strAlcoholic": "Con Alcohol",
+            "strClassic": true,
             "strDrinkThumb": "https://static01.nyt.com/images/2020/05/17/magazine/17mag-eat/17mag-eat-articleLarge.jpg",
             "strIngredients": ["Vodka", "Zumo de tomate", "Zumo de limón", "Salsa perrins", "Tabasco", "Sal de apio", "Pimienta", "Apio"],
             "strMeasures": ["4 cl", "9 cl", "1.5 cl", "3 gotas", "2 gotas", "1 pizca", "1 toque", "1 rama"],
@@ -108,6 +115,7 @@
         },{
             "strDrink": "Long Island Ice Tea",
             "strAlcoholic": "Con Alcohol",
+            "strDanger": true,
             "strDrinkThumb": "https://imag.bonviveur.com/presentacion-final.jpg",
             "strIngredients": ["Ginebra", "Tequila", "Vodka", "Ron Blanco", "Triple sec", "Jarabe de goma", "Zumo de lima", "Cocacola"],
             "strMeasures": ["1.5 cl", "1.5 cl", "1.5 cl", "1.5 cl", "1.5 cl", "3 cl", "2.5 cl"],
@@ -122,6 +130,7 @@
         },{
             "strDrink": "Margarita",
             "strAlcoholic": "Con Alcohol",
+            "strClassic": true,
             "strDrinkThumb": "https://estudiarhosteleria.es/wp-content/uploads/2021/06/Como-hacer-un-Margarita-Receta-de-Coctel-Clasico-de-Margarita-3.jpg",
             "strIngredients": ["Tequila", "Cointreau", "Zumo de lima"],
             "strMeasures": ["3.5 cl", "2 cl", "1.5 cl"],
@@ -129,6 +138,7 @@
         },{
             "strDrink": "Mojito",
             "strAlcoholic": "Con Alcohol",
+            "strClassic": true,
             "strDrinkThumb": "https://imag.bonviveur.com/mojito-cubano.jpg",
             "strIngredients": ["Ron blanco", "Zumo de lima", "Menta", "Azucar", "Agua con gas"],
             "strMeasures": ["4 cl", "3 cl", "6 ramitas", "2 cucharadas"],
@@ -143,6 +153,7 @@
         },{
             "strDrink": "Piña Colada",
             "strAlcoholic": "Con Alcohol",
+            "strClassic": true,
             "strDrinkThumb": "https://www.acouplecooks.com/wp-content/uploads/2020/11/Pina-Colada-056.jpg",
             "strIngredients": ["Ron Blanco", "Zumo de piña", "Leche de coco"],
             "strMeasures": ["3 cl", "9 cl", "3 cl"],
@@ -150,6 +161,7 @@
         },{
             "strDrink": "Sex On The Beach",
             "strAlcoholic": "Con Alcohol",
+            "strClassic": true,
             "strDrinkThumb": "https://elcoctelero.com/wp-content/uploads/2021/06/coctel-sexo-en-la-playa-sex.jpg",
             "strIngredients": ["Vodka", "Licor melocotón", "Licor de arándanos", "Zumo de naranja"],
             "strMeasures": ["4 cl", "2 cl", "4 cl", "4 cl"],
@@ -157,6 +169,7 @@
         },{
             "strDrink": "Tequila Sunrise",
             "strAlcoholic": "Con Alcohol",
+            "strDanger": true,
             "strDrinkThumb": "https://cocktail-society.com/wp-content/uploads/2021/10/Tequila-Sunrise-Cocktail-1200.jpg",
             "strIngredients": ["Tequila", "Zumo de naranja", "Granadina"],
             "strMeasures": ["4.5 cl", "9 cl", "1.5 cl"],
@@ -171,6 +184,7 @@
         },{
             "strDrink": "Espresso Martini",
             "strAlcoholic": "Con Alcohol",
+            "strDanger": true,
             "strDrinkThumb": "https://dosmaderas.com/wp-content/uploads/2021/10/Dos-Maderas-rum-Cocktail-Espresso-Martini-HERO-6.jpg",
             "strIngredients": ["Vodka", "Kahlua", "Sirope de azúcar", "Expresso corto"],
             "strMeasures": ["5 cl", "1 cl", "1.5 cl", "1"],
