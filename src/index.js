@@ -2,6 +2,7 @@
 import cocktails from "./services/cocktails.json";
 import "./components/CardMinimal.js";
 import "./components/CocktailDetail";
+import { setCocktail } from "./context/cocktailContext";
 
 const search = document.querySelector("#searcher");
 const result = document.querySelectorAll(".container")[1];
@@ -44,11 +45,8 @@ document.querySelector("form").addEventListener("submit", filter);
 search.addEventListener("keyup", filter);
 
 document.body.addEventListener("show-details", (event) => {
-  const cocktail = event.detail;
-  result.innerHTML = "";
-  const container = document.createElement("cocktail-detail");
-  container.cocktail = cocktail;
-  result.appendChild(container);
+  location.pathname = "/details.html";
+  setCocktail(event.detail);
 });
 
 const overage = document.querySelector(".overage");

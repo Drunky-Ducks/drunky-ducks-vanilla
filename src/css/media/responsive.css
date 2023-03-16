@@ -22,10 +22,10 @@
     }
 
   .container {
-     gap: 5rem;
+     gap: 2rem;
 
     }
-    
+
   .modal .container {
     gap: 0;
   }
