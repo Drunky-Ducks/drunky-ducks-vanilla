@@ -22,7 +22,6 @@ class CardMinimal extends LitElement {
         align-items: center;
         width: 100%;
         max-width: 400px;
-        aspect-ratio: 1/1;
         text-align: center;
         filter: drop-shadow(2px 2px 5px black) drop-shadow(-2px -2px 5px black)
       }
@@ -47,7 +46,11 @@ class CardMinimal extends LitElement {
         justify-content: center;
         align-items: center;
         gap: 10px;
-        padding: 10px;
+        padding: 20px;
+      }
+
+      h1 {
+        cursor: pointer;
       }
 
       span {
@@ -79,7 +82,7 @@ class CardMinimal extends LitElement {
       <style>${CardMinimal.styles}</style>
       <img src=${this.cocktail.strDrinkThumb} alt="cocktail ${this.cocktail.strDrink.toLowerCase()} image">
       <div>
-        <h1>${this.cocktail.strDrink}</h1>
+        <h1 @click=${this.goDetails}>${this.cocktail.strDrink}</h1>
         <span @click=${this.goDetails}>ℹ</span>
       </div>
 

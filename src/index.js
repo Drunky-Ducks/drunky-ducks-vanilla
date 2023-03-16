@@ -3,7 +3,7 @@ import cocktails from "./services/cocktails.json";
 import "./components/CardMinimal.js";
 import "./components/CocktailDetail";
 
-const search = document.querySelector("#search");
+const search = document.querySelector("#searcher");
 const result = document.querySelectorAll(".container")[1];
 const list = document.querySelector(".list");
 
@@ -20,27 +20,29 @@ const filter = (event) => {
   const searcher = document.querySelector("#searcher").value;
   result.innerHTML = "";
   const cocktail = searcher.toLowerCase();
+  let ocurrence = 0;
 
   for (const nameCocktail of cocktails.drinks) {
     const name = nameCocktail.strDrink.toLowerCase();
-    if (name === cocktail) {
-      result.innerHTML = "";
+    if (name.startsWith(cocktail)) {
       const container = document.createElement("card-minimal");
       container.cocktail = nameCocktail;
       result.appendChild(container);
+      ocurrence++;
     }
+  }
 
-    if (result.innerHTML === "") {
-      result.innerHTML += `
+  if (ocurrence === 0) {
+    result.innerHTML += `
       <div class="error">Cóctel no encontrado</div>
       <img class="gif-error" src="/media/duck.gif" alt="duck gif">
       `;
-    }
   }
 };
 
-search.addEventListener("click", (e) => filter(e));
-search.addEventListener("keyup", (e) => filter(e));
+document.querySelector("form").addEventListener("submit", filter);
+search.addEventListener("keyup", filter);
+
 document.body.addEventListener("show-details", (event) => {
   const cocktail = event.detail;
   result.innerHTML = "";
