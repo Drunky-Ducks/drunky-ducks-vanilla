@@ -110,6 +110,7 @@ header {
 .back-icon {
   color: #ffc300;
   font-size: 4rem;
+  cursor: pointer;
 }
 
 /*    Modal   */
