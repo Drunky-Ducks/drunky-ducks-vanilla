@@ -111,7 +111,7 @@ class CocktailDetail extends LitElement {
           <ul class="ingredients"></ul>
         </div>
         <div>
-          <h3>Intrucciones:</h3>
+          <h3>Instrucciones:</h3>
           <p>${this.cocktail.strInstructions}</p>
         </div>
       </div>
