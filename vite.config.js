@@ -12,6 +12,8 @@ export default defineConfig({
   publicDir: "../public",
   build: {
     rollupOptions: {
+      outDir: "../dist",
+      assetsDir: "./",
       input: {
         main: resolve(__dirname, "/index.html"),
         detail: resolve(__dirname, "/details.html"),
