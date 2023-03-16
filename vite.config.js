@@ -11,9 +11,9 @@ export default defineConfig({
   mode,
   publicDir: "../public",
   build: {
+    outDir: "../dist",
+    assetsDir: "./",
     rollupOptions: {
-      outDir: "../dist",
-      assetsDir: "./",
       input: {
         main: resolve(__dirname, "/index.html"),
         detail: resolve(__dirname, "/details.html"),
