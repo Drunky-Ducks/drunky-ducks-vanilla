@@ -4,7 +4,7 @@ import "./components/CardMinimal.js";
 import "./components/CocktailDetail";
 
 const search = document.querySelector("#search");
-const result = document.querySelector(".container");
+const result = document.querySelectorAll(".container")[1];
 const list = document.querySelector(".list");
 
 (() => {
