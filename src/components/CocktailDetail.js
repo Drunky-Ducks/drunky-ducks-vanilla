@@ -18,21 +18,22 @@ class CocktailDetail extends LitElement {
       }
 
       .details {
-        width: 500px;
+        width: 100%;
+        max-width: 500px;
         border: 1px solid black;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        padding: 10px;
         gap: 30px;
         border-top: 5px solid #ffc300;
-    border-bottom: 5px solid #ffc300;
-    box-shadow: #00000082 0 15px 30px;
+        border-bottom: 5px solid #ffc300;
+        box-shadow: #00000082 0 15px 30px;
       }
 
       h1 {
-        font-size: 4rem;
+        font-size: 3.4rem;
         text-transform: uppercase;
         color: #FFC300;
         margin-bottom: 10px;
@@ -55,8 +56,9 @@ class CocktailDetail extends LitElement {
       }
 
       picture {
-        width: 20rem;
-        height: 15rem;
+        width: 90%;
+        max-width: 350px;
+        aspect-ratio: 1/1;
       }
 
       img {
@@ -71,6 +73,7 @@ class CocktailDetail extends LitElement {
 
       p {
         text-indent: 15px;
+        padding: 5px;
       }
     `;
   }

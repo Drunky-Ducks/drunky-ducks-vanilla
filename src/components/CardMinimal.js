@@ -16,40 +16,56 @@ class CardMinimal extends LitElement {
       }
 
       :host{
-        display: block;
-        width: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 400px;
         aspect-ratio: 1/1;
         text-align: center;
+        filter: drop-shadow(2px 2px 5px black) drop-shadow(-2px -2px 5px black)
       }
 
       img {
         position: relative;
-        bottom: -20px;
+        bottom: -15px;
         width: 80%;
         aspect-ratio: 1/1;
         border-radius: 50%;
-        border: 5px solid #FFC300
+        border: 5px solid #40bfc1;
+        box-shadow: 2px 2px 5px black, -2px -2px 5px black;
       }
 
-      h1 {
+      div {
+        width: 80%;
         background: #202124;
-        border: 5px solid #FFC300;
+        border: 5px solid #40bfc1;
         color: #FFC300;
         border-radius: 7px;
-        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
       }
 
-      button {
-        background-color:  #FFC300; /* Color de fondo */
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        background-color:  #40bfc1; /* Color de fondo */
         color: black; /* Color del texto */
-        padding: 10px 20px; /* Espacio interno del botón */
-        border: 1px dashed black; /* Sin borde */
+        padding: 10px; /* Espacio interno del botón */
+        border: 1px solid black; /* Sin borde */
         border-radius: 50%; /* Bordes redondeados */
         cursor: pointer; /* Cambia el cursor al pasar el ratón */
-        font-size: 20px;
+        font-size: 1.3rem;
         font-weight: bold;
       }
-      
+
     `;
   }
 
@@ -61,9 +77,12 @@ class CardMinimal extends LitElement {
   render() {
     return html`
       <style>${CardMinimal.styles}</style>
-      <img @click=${this.goDetails} src=${this.cocktail.strDrinkThumb} alt="cocktail ${this.cocktail.strDrink.toLowerCase()} image">
-      <h1 @click=${this.goDetails}>${this.cocktail.strDrink} <button type="button">+</button><span></span></h1>
-      
+      <img src=${this.cocktail.strDrinkThumb} alt="cocktail ${this.cocktail.strDrink.toLowerCase()} image">
+      <div>
+        <h1>${this.cocktail.strDrink}</h1>
+        <span @click=${this.goDetails}>ℹ</span>
+      </div>
+
     `;
   }
 }

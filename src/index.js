@@ -8,7 +8,7 @@ const result = document.querySelector(".container");
 const list = document.querySelector(".list");
 
 (() => {
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 9; i++) {
     const container = document.createElement("card-minimal");
     container.cocktail = cocktails.drinks[i];
     list.appendChild(container);
@@ -32,7 +32,9 @@ const filter = (event) => {
 
     if (result.innerHTML === "") {
       result.innerHTML += `
-      <div>Coctel no encontrado</div>`;
+      <div class="error">Cóctel no encontrado</div>
+      <img class="gif-error" src="/media/duck.gif" alt="duck gif">
+      `;
     }
   }
 };
