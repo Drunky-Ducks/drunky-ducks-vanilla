@@ -38,6 +38,18 @@ class CardMinimal extends LitElement {
         border-radius: 7px;
         padding: 20px;
       }
+
+      button {
+        background-color:  #FFC300; /* Color de fondo */
+        color: black; /* Color del texto */
+        padding: 10px 20px; /* Espacio interno del botón */
+        border: 1px dashed black; /* Sin borde */
+        border-radius: 50%; /* Bordes redondeados */
+        cursor: pointer; /* Cambia el cursor al pasar el ratón */
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
     `;
   }
 
@@ -50,7 +62,8 @@ class CardMinimal extends LitElement {
     return html`
       <style>${CardMinimal.styles}</style>
       <img @click=${this.goDetails} src=${this.cocktail.strDrinkThumb} alt="cocktail ${this.cocktail.strDrink.toLowerCase()} image">
-      <h1 @click=${this.goDetails}>${this.cocktail.strDrink}</h1>
+      <h1 @click=${this.goDetails}>${this.cocktail.strDrink} <button type="button">+</button><span></span></h1>
+      
     `;
   }
 }

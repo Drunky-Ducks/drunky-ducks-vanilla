@@ -47,7 +47,6 @@ header {
   border-bottom: 2px solid rgb(164 164 163);
   font-size: 1.2rem;
   outline: none;
-  margin-bottom: 1rem;
   background-color: #bbb5b5;
 }
 
@@ -65,7 +64,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  padding: 6rem 0;
+ 
 }
 
 .tittle {

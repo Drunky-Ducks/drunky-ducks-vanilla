@@ -18,16 +18,22 @@ class CocktailDetail extends LitElement {
       }
 
       .details {
+        width: 500px;
+        border: 1px solid black;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 20px;
         gap: 30px;
+        border-top: 5px solid #ffc300;
+    border-bottom: 5px solid #ffc300;
+    box-shadow: #00000082 0 15px 30px;
       }
 
       h1 {
         font-size: 4rem;
+        text-transform: uppercase;
         color: #FFC300;
         margin-bottom: 10px;
       }
