@@ -102,17 +102,6 @@ header {
   border-radius: 23%;
 }
 
-.icon-container {
-  align-self: start;
-  margin-left: 10px;
-}
-
-.back-icon {
-  color: #ffc300;
-  font-size: 4rem;
-  cursor: pointer;
-}
-
 /*    Modal   */
 .modal {
   position: fixed;
