@@ -48,3 +48,24 @@ document.body.addEventListener("show-details", (event) => {
   container.cocktail = cocktail;
   result.appendChild(container);
 });
+
+const overage = document.querySelector(".overage");
+const underage = document.querySelector(".underage");
+const modal = document.querySelector(".modal");
+
+overage.addEventListener("click", () => {
+  localStorage.setItem("overage", true);
+  modal.style.display = "none";
+});
+
+underage.addEventListener("click", () => {
+  location.replace("https://www.google.com/");
+});
+
+window.addEventListener("load", () => {
+  const overageState = localStorage.getItem("overage");
+
+  if (!overageState) {
+    modal.style.display = "grid";
+  }
+});

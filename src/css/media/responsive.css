@@ -25,6 +25,10 @@
      gap: 5rem;
 
     }
+    
+  .modal .container {
+    gap: 0;
+  }
 
   .tittle {
       font-size: 3rem;

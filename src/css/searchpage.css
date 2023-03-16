@@ -77,6 +77,7 @@
 .error {
   color: #ffc300;
   font-size: 2rem;
+  text-align: center;
 }
 
 .gif-error {
