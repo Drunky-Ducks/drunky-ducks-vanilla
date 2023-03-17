@@ -80,7 +80,7 @@ class CardMinimal extends LitElement {
   render() {
     return html`
       <style>${CardMinimal.styles}</style>
-      <img src=${this.cocktail.strDrinkThumb} alt="cocktail ${this.cocktail.strDrink.toLowerCase()} image">
+      <img @click=${this.goDetails} src=${this.cocktail.strDrinkThumb} alt="cocktail ${this.cocktail.strDrink.toLowerCase()} image">
       <div>
         <h1 @click=${this.goDetails}>${this.cocktail.strDrink}</h1>
         <span @click=${this.goDetails}>ℹ</span>
