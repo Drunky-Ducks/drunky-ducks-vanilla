@@ -5,6 +5,7 @@ import { fillFooterIcons } from "./modules/fillFooterIcons";
 
 import "./components/CardMinimal.js";
 import "./components/CocktailDetail";
+import "./components/NotFound.js";
 
 const search = document.querySelector("#searcher");
 const list = document.querySelector(".list");
@@ -43,12 +44,8 @@ const filter = (event) => {
     }
 
     if (ocurrence === 0) {
-      list.innerHTML = /* html */`
-        <div class="error-container">
-          <div class="error">Cóctel no encontrado</div>
-          <img class="gif-error" src="/media/duck.gif" alt="duck gif">
-        </div>
-      `;
+      const container = document.createElement("not-found");
+      list.appendChild(container);
     }
   }
 };
