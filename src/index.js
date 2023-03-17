@@ -5,39 +5,48 @@ import "./components/CocktailDetail";
 import { setCocktail } from "./context/cocktailContext";
 
 const search = document.querySelector("#searcher");
-const result = document.querySelectorAll(".container")[1];
 const list = document.querySelector(".list");
 
-(() => {
+const fillDefaultCocktails = () => {
   for (let i = 0; i < 9; i++) {
     const container = document.createElement("card-minimal");
     container.cocktail = cocktails.drinks[i];
     list.appendChild(container);
   }
+};
+
+(() => {
+  fillDefaultCocktails();
 })();
 
 const filter = (event) => {
   event.preventDefault();
   const searcher = document.querySelector("#searcher").value;
-  result.innerHTML = "";
+  list.innerHTML = "";
   const cocktail = searcher.toLowerCase();
   let ocurrence = 0;
 
-  for (const nameCocktail of cocktails.drinks) {
-    const name = nameCocktail.strDrink.toLowerCase();
-    if (name.startsWith(cocktail)) {
-      const container = document.createElement("card-minimal");
-      container.cocktail = nameCocktail;
-      result.appendChild(container);
-      ocurrence++;
+  if (cocktail === "") {
+    fillDefaultCocktails();
+  } else {
+    for (const nameCocktail of cocktails.drinks) {
+      const name = nameCocktail.strDrink.toLowerCase();
+      if (name.startsWith(cocktail)) {
+        const container = document.createElement("card-minimal");
+        container.cocktail = nameCocktail;
+        list.appendChild(container);
+        ocurrence++;
+      }
     }
-  }
 
-  if (ocurrence === 0) {
-    result.innerHTML += `
-      <div class="error">Cóctel no encontrado</div>
-      <img class="gif-error" src="/media/duck.gif" alt="duck gif">
+    if (ocurrence === 0) {
+      list.innerHTML = /* html */`
+        <div class="error-container">
+          <div class="error">Cóctel no encontrado</div>
+          <img class="gif-error" src="/media/duck.gif" alt="duck gif">
+        </div>
       `;
+    }
   }
 };
 
