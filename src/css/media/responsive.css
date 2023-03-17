@@ -76,5 +76,20 @@
   .title-logo h1 {
     font-size: 3.5rem;
   }
+}
 
+@media screen and (max-width: 320px) {
+  .title-logo h1 {
+    font-size: 3rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .developed span {
+    text-align: center;
+  }
 }

@@ -1,8 +1,10 @@
 
 import cocktails from "./services/cocktails.json";
+import { setCocktail } from "./context/cocktailContext";
+import { fillFooterIcons } from "./modules/fillFooterIcons";
+
 import "./components/CardMinimal.js";
 import "./components/CocktailDetail";
-import { setCocktail } from "./context/cocktailContext";
 
 const search = document.querySelector("#searcher");
 const list = document.querySelector(".list");
@@ -17,6 +19,7 @@ const fillDefaultCocktails = () => {
 
 (() => {
   fillDefaultCocktails();
+  fillFooterIcons();
 })();
 
 const filter = (event) => {
