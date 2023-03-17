@@ -24,12 +24,28 @@
 }
 
 body, html {
-margin: 0;
-padding: 0;
-width: 100%;
-height: 100%;
-background-color: #333;
-font-family: DuruSans, monospace;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  scrollbar-width: 14px;
+  scrollbar-color: #444 #ffffff6f;
+  scroll-behavior: smooth;
+  font-family: DuruSans, monospace;
+}
+
+/*    Scrollbar   */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff6f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
 }
 
 header {
