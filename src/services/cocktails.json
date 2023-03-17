@@ -7,14 +7,14 @@
             "strDrinkThumb": "https://puntodincontro.mx/wp-content/uploads/2022/01/negroniprimopostomondialevert.webp",
             "strIngredients": ["Campari", "Vermut rojo", "Agua con gas"],
             "strMeasures": ["3 cl", "3 cl"],
-            "strInstructions": "Mezcla los ingredientes directamente en un vaso Old Fashioned lleno de cubos de hielo. Completa con un poco de agua con gas y decorar con una media una de naranja."
+            "strInstructions": "Mezcla los ingredientes directamente en un vaso Old Fashioned lleno de cubos de hielo. Completa con un poco de agua con gas y decora con una piel de naranja."
         },{
             "strDrink": "Bacardi",
             "strAlcoholic": "Con Alcohol",
             "strDrinkThumb": "https://st3.depositphotos.com/8120940/15427/i/450/depositphotos_154273290-stock-photo-strawberry-daiquiri-cocktail-with-lime.jpg",
             "strIngredients": ["Ron blanco", "Zumo de lima", "Granadina"],
             "strMeasures": ["4.5 cl ", "2 cl", "1 cl "],
-            "strInstructions": "Coloca todos los ingredientes en una coctelera con hielo, agita bien y sirve en una copa fría y decorar con lima."
+            "strInstructions": "Coloca todos los ingredientes en una coctelera con hielo, agita bien y sirve en una copa fría, por último decora con lima ¡y listo!."
         },{
             "strDrink": "Daiquiri",
             "strAlcoholic": "Con Alcohol",
@@ -22,7 +22,7 @@
             "strDrinkThumb": "https://cdn.diffords.com/contrib/stock-images/2016/11/54/2016f9307258872e6f649ba6bd3be48d912f.jpg",
             "strIngredients": ["Ron Blanco", "Zumo de lima", "Azucar"],
             "strMeasures": ["4.2 cl", "2.5 cl","1.5 cl"],
-            "strInstructions": "Coloca todos los ingredientes en unacoctelera con hielo, agita bien y sirve en una copa fría y decorar con lima."
+            "strInstructions": "Coloca todos los ingredientes en una coctelera con hielo, agita bien, sirve en una copa fría y decora con lima."
         },{
             "strDrink": "Dry Martini",
             "strAlcoholic": "Con Alcohol",
@@ -30,35 +30,35 @@
             "strDrinkThumb": "https://foodandsun.com/wp-content/uploads/2020/06/Dirty-Martini-1-1.jpg",
             "strIngredients": ["Ginebra", "Vermouth seco"],
             "strMeasures": ["6 cl", "1 cl"],
-            "strInstructions": "Coloca todos los ingredientes en un mixing glass con hielo. Remueve bien. Cuela en una copa Martini enfriada previamente. Decorar con aceitinas."
+            "strInstructions": "Coloca todos los ingredientes en un mixing glass con hielo. Remueve bien. Sirve en una copa Martini enfriada previamente. Termina decorando con aceitunas."
         },{
             "strDrink": "Manhattan",
             "strAlcoholic": "Con Alcohol",
             "strDrinkThumb": "https://www.javirecetas.com/wp-content/uploads/2022/06/manhattan-coctel.jpg",
             "strIngredients": ["Whisky", "Vermut rojo", "Angostura"],
             "strMeasures": ["5 cl ", "2 cl ", "Un golpe"],
-            "strInstructions": "Coloca todos los ingredientes en un mixing glass con hielo. Remueve bien. Cuela en una copa Martini enfriada previamente. Decorar con una cereza."
+            "strInstructions": "Coloca todos los ingredientes en un mixing glass con hielo. Remueve bien. Sirve en una copa Martini enfriada previamente. Decorar con una cereza."
         },{
             "strDrink": "Negroni",
             "strAlcoholic": "Con Alcohol",
             "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/twtbh51630406392.jpg",
             "strIngredients": ["Ginebra", "Campari", "Vermut rojo"],
             "strMeasures": ["3 cl", "3 cl", "3 cl"],
-            "strInstructions": "Coloca todos los ingredientes directamente en un vaso Old Fashionedlleno con hielo. Remueve delicadamente. Decorar con una media luna de naranja."
+            "strInstructions": "Coloca todos los ingredientes directamente en un vaso Old Fashionedlleno con hielo. Remueve delicadamente y añade una media luna de naranja para decorar."
         },{
             "strDrink": "Whisky Sour",
             "strAlcoholic": "Con Alcohol",
             "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/rpsrqv1468923507.jpg",
             "strIngredients": ["Whisky", "Zumo de limón", "Sirope de azucar"],
             "strMeasures": ["4.5 cl", "3 cl", "1.5 cl"],
-            "strInstructions": "Coloca todos los ingredientes en una coctelera con hielo. Agita bien. Cuela en una copa coctel. Si se sirve “en las rocas”, cuela los ingredientes en un vaso Old Fashioned con hielo. Decorar con una media luna de naranja y una cereza marrasquino."
+            "strInstructions": "Coloca todos los ingredientes en una coctelera con hielo. Agita bien. puedes servirlo en una copa coctel o añadir hielo picado y servir en un vaso Old Fashioned. Decóralo con una media luna de naranja y una cereza marrasquino."
         },{
             "strDrink": "Bellini",
             "strAlcoholic": "Con Alcohol",
             "strDrinkThumb": "https://www.mygourmetconnection.com/wp-content/uploads/classic-bellini.jpg",
             "strIngredients": ["Prosecco", "Pure de melocoton"],
             "strMeasures": ["10 cl", "5 cl"],
-            "strInstructions": "Coloca el puré en un vaso enfriado previamente y agrega el vino. Remueve suavemente."
+            "strInstructions": "Coloca la mezcla procesada en un vaso enfriado previamente y agrega el vino. Remueve suavemente."
         },{
             "strDrink": "Caipirinha",
             "strAlcoholic": "Con Alcohol",
@@ -73,7 +73,7 @@
             "strDrinkThumb": "https://www.sainsburysmagazine.co.uk/media/3767/download/CHAMPAGNE-COCKTAIL_1120_1460.jpg?v=1",
             "strIngredients": ["Champán", "Cognac", "Amargo de Angostura", "Azucar"],
             "strMeasures": ["9 cl", "1 cl", "2 golpes", "1 cucharada"],
-            "strInstructions": "Agrega el Amargo de Angostura sobre el cubo de azúcar y suéltalo en una copa flauta. Incorpora el Cognac seguido del Champagne. Decorar con una media luna de naranja y una cereza marrasquino."
+            "strInstructions": "Agrega el Amargo de Angostura sobre el cubo de azúcar y sirve en una copa flauta. Incorpora el Cognac seguido del Champagne. Decorar con una media luna de naranja y una cereza marrasquino."
         },{
             "strDrink": "Cosmopolitan",
             "strAlcoholic": "Con Alcohol",
@@ -81,7 +81,7 @@
             "strDrinkThumb": "https://recetasdecocina.elmundo.es/wp-content/uploads/2022/05/COSMOPOLITAN.jpg",
             "strIngredients": ["Vodka", "Cointreau", "Zumo de lima", "Zumo de arándano"],
             "strMeasures": ["4 cl", "1.5 cl", "1.5 cl", "3 cl"],
-            "strInstructions": " Coloca todos los ingredientes en una coctelera con hielo. Cuela en una copa coctel. Decorar con una rodaja de lima."
+            "strInstructions": " Coloca todos los ingredientes en una coctelera con hielo. Cuela en una copa cóctel. Decorar con una rodaja de lima."
         },{
             "strDrink": "Cuba Libre",
             "strAlcoholic": "Con Alcohol",
@@ -89,14 +89,14 @@
             "strDrinkThumb": "https://cocinaperuana.espaciolatino.com/recetas-de-bebidas/img600/cuba-libre.jpg",
             "strIngredients": ["Ron Blanco", "Cocacola", "Zumo de lima"],
             "strMeasures": ["5 cl", "12 cl", "1 cl"],
-            "strInstructions": "Coloca los ingredientes en u vaso High Ball lleno de hielo. Decorar con una rodaja de lima."
+            "strInstructions": "Coloca los ingredientes en un vaso High Ball lleno de hielo y decora con una rodaja de lima."
         },{
             "strDrink": "Irish Coffee",
             "strAlcoholic": "Con Alcohol",
             "strDrinkThumb": "https://www.everythingzoomer.com/wp-content/uploads/2022/03/GettyImages-1087281680.jpg",
             "strIngredients": ["Whisky irlandés", "Cafe", "Crema de leche", "Azúcar moreno"],
             "strMeasures": ["4 cl", "9 cl", "3 cl", "1 cucharada"],
-            "strInstructions": "Calienta el whisky irlandés en una estufa. Coloca en un vaso Toddy, el café caliente y la cucharada de azúcar. Coloca la crema batida en la parte superior. Decorar con granos de cafe"
+            "strInstructions": "Calienta el whisky irlandés. Coloca en un vaso Toddy, el café caliente y la cucharada de azúcar. Después la crema batida en la parte superior y termina decorando con granos de cafe"
         },{
             "strDrink": "Kir Royal",
             "strAlcoholic": "Con Alcohol",
@@ -126,7 +126,7 @@
             "strDrinkThumb": "https://okdiario.com/img/recetas/2017/06/26/maitai.jpg",
             "strIngredients": ["Ron blanco", "Ron oscuro", "Licor de naranja", "Sirope de orchata", "Zumo de lima"],
             "strMeasures": ["4 cl", "2 cl", "1.5 cl", "1.5 cl", "1 cl"],
-            "strInstructions": "Agrega los ingredientes en una coctelera con hielo. Cuela en un vaso High Ball con hielo. Decorar con un triángulo de piña, hojas de menta y piel de lima."
+            "strInstructions": "Agrega los ingredientes en una coctelera con hielo y sirve en un vaso High Ball con hielo. Decora con un triángulo de piña, hojas de menta y piel de lima."
         },{
             "strDrink": "Margarita",
             "strAlcoholic": "Con Alcohol",
@@ -149,7 +149,7 @@
             "strDrinkThumb": "https://bakeitwithlove.com/wp-content/uploads/2022/07/Moscow-Mule-sq.jpg",
             "strIngredients": ["Vodka", "Cerveza de jengibre", "Zumo de lima"],
             "strMeasures": ["4.5 cl", "12 cl", "0.5 cl"],
-            "strInstructions": "Combina el vodka con la cerveza de jengibre en un vaso High Ball. Agrega el jugo y decorar con una rodaja de lima."
+            "strInstructions": "Combina el vodka con la cerveza de jengibre en un vaso High Ball. Agrega el jugo y decóralo con una rodaja de lima."
         },{
             "strDrink": "Piña Colada",
             "strAlcoholic": "Con Alcohol",
@@ -157,7 +157,7 @@
             "strDrinkThumb": "https://www.acouplecooks.com/wp-content/uploads/2020/11/Pina-Colada-056.jpg",
             "strIngredients": ["Ron Blanco", "Zumo de piña", "Leche de coco"],
             "strMeasures": ["3 cl", "9 cl", "3 cl"],
-            "strInstructions": "Mezcla todos los ingredientes conhielo en una licuadora. Sirve en una copa Huracán. Decorar con un triángulo de piña y una cereza."
+            "strInstructions": "Mezcla todos los ingredientes con hielo en una licuadora. Sirve en una copa Huracán. Decorar con un triángulo de piña y una cereza."
         },{
             "strDrink": "Sex On The Beach",
             "strAlcoholic": "Con Alcohol",
@@ -173,7 +173,7 @@
             "strDrinkThumb": "https://cocktail-society.com/wp-content/uploads/2021/10/Tequila-Sunrise-Cocktail-1200.jpg",
             "strIngredients": ["Tequila", "Zumo de naranja", "Granadina"],
             "strMeasures": ["4.5 cl", "9 cl", "1.5 cl"],
-            "strInstructions": "Coloca el tequila y el jugo de naranja directamente en un vaso High Ball lleno de hielo. Coloca la granadina para crear el efecto cromático. Decorar con una rodaja de naranja y una cereza."
+            "strInstructions": "Coloca el tequila y el jugo de naranja directamente en un vaso High Ball lleno de hielo. Coloca la granadina para crear el efecto cromático. Decora con una rodaja de naranja y una cereza."
         },{
             "strDrink": "Sea Breeze",
             "strAlcoholic": "Con Alcohol",
